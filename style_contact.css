@@ -1,0 +1,614 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+    display: flex;
+    padding: 1em;
+    padding-bottom: 2em;
+}
+
+/* NAVBAR */
+
+nav#navBarr {
+  width: 100%;
+  background-color: white;
+}
+
+button.navbar-toggler {
+  background-color: white;
+}
+
+div.navbarNav {
+  background-color: white;
+}
+/*
+.navbar>.container, .navbar>.container-fluid {
+  padding-left: 2em; 
+}*/
+
+ul.navbar-nav {
+  padding-left: 3em;
+}
+
+ul.navbar-nav a.aboutSocialLinks {
+  padding-left: 0;
+}
+
+ul.navbar-nav span.aboutSocialLinks {
+  display: block;
+  margin: 0
+}
+
+ul.navbar-nav a.nav-link {
+  color: #220A44;
+}
+
+ul.navbar-nav a.nav-link:hover {
+  text-decoration: underline;
+  color: #220A44;
+  text-underline-offset: 5px;
+  cursor: pointer;
+}
+
+.navbar-nav .nav-link.active {
+  color: #220A44;
+}
+
+ul.navbar-nav a.nav-link {
+  font-family: 'Kumbh Sans';
+  font-size: xx-large;
+}
+
+/* MAIN */
+
+figure.myLogo {
+  margin: auto;
+  margin-left: 1em;
+}
+button.langLink, a.langLink{  
+  font-family: 'Kumbh Sans';
+  color: #220A44;
+  text-decoration: none;
+}
+h1, h2, h3, h4, p {
+    color: #220A44;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+h1 {
+  font-family: 'Kumbh Sans Light', sans-serif;
+}
+section.myPresentation {
+  border-end-end-radius: 50px;
+  margin-bottom: 3em;
+  padding-top: 2em;
+}
+div.myPresentation {
+  margin: 0;
+  padding-left: 1em;
+  position: relative;
+}
+button.btn.btnContact {
+  border-radius: 0;
+  background-color: #220A44;
+  font-family: 'KUMBH SANS';
+  font-weight: normal;
+  font-size: small;
+  letter-spacing: 6px;
+  padding: 10px 30px;
+  margin-right: 15px;
+  margin-left: 0;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+button.btn.btnContact:hover {
+  background-color: transparent;
+  border: solid #220A44 2px;
+  color: #220A44;
+  cursor: pointer;
+}
+
+div.buttonsPresentation{
+  align-items: center;
+}
+a.socialNetLink {
+  font-family: 'KUMBH SANS';
+  font-weight: normal;
+  font-size: small;
+  letter-spacing: 6px;
+  text-decoration: none;
+  color: #220A44;
+  bottom: 4.5px;
+  position: relative;
+}
+a.socialNetLink:hover {
+  text-decoration: underline;
+  color: #220A44;
+  text-underline-offset: 5px;
+  cursor: pointer;
+}
+
+/* Contact form */
+
+div.contactInput {
+  display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.contactLabel {
+  color: #220A44;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+input {
+  border: solid #220A44 1px;
+  width: 90%;
+  height: 3em;
+  margin-top: 10px;
+}
+
+textarea {
+  border: solid #220A44 1px;
+  width: 90%;
+  margin-top: 10px;
+}
+
+::placeholder {
+  color: lightgray;
+  opacity: 1;
+}
+
+textarea::placeholder {
+  color: lightgray;
+  opacity: 1;
+}
+
+::-webkit-placeholder { 
+  color: lightgray;
+  opacity: 1;
+}
+
+::-moz-placeholder { 
+  color: lightgray;
+  opacity: 1;
+}
+
+::-ms-placeholder { 
+  color: lightgray;
+  opacity: 1;
+}
+
+::placeholder { 
+  color: lightgray;
+  opacity: 1;
+}
+
+div.animationContainer {
+  padding-bottom: 2em;
+  padding-right: 10px;
+}
+iframe {
+  width: 100%;
+}
+hr {
+  border: 0;
+}
+figure.dotDivider1 {
+  position: absolute;
+  top: 49%;
+}
+figure.dotDivider2 {
+  position: absolute;
+  top: -1.5%;
+}
+img.dotDivider{
+  width: 50%;
+}
+section.myServices {
+  padding-left: 1em;
+  padding-right: 0.5em;
+}
+section.myServices p {
+  font-family: 'Roboto Light', sans-serif;
+  text-align: justify;
+}
+section.myServices h4 {
+  text-align: left;
+  padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+div.myServices1 {
+  border-color: #220A44;
+  margin-bottom: 2em;
+}
+div.serviceStyle:hover {
+  background-color: #E8D9F4;
+  cursor: pointer;
+}
+div.serviceStyle:active {
+  background-color: transparent;
+  cursor: pointer;
+  border-color: #E8D9F4;
+  position: relative;
+}
+div.myServicesContainer {
+  justify-content: center;
+}
+div.myServices1 {
+  border: solid 2px #E8D9F4;
+  border-radius: 50px 0px 50px 0px;
+  padding: 20px;
+  max-width: 20em;
+  margin: 1em;
+  height: 430px;
+}
+section.myServices h4 {
+  margin-top: 1.5em;
+}
+section.myServices p {
+  margin-bottom: 0;
+}
+img.imgService {
+  height: 13em;
+}
+#serviceStyle1, #serviceStyle2, #serviceStyle3 {
+  position: relative;
+}
+
+/* prices */
+
+/*
+div.priceShow {
+  position: absolute;
+  left: 80%;
+  bottom: -10%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-out;
+}
+#serviceStyle1:hover > div.priceShow {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+  transform: translate(-15px, -15px);
+  visibility: visible;
+}
+ */
+
+div.priceThing {
+  background: #85F9D2;
+  border-radius: 50%;
+  position: absolute;
+/*  left: 80%;
+  bottom: 10%; */
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-out;
+}
+#serviceStyle1:hover > #priceTh4 {
+  opacity: 1;
+  transition: all 0.2s ease-in;
+  transform: translate(-35px, -20px);
+  visibility: visible;
+}
+#serviceStyle1:hover > #priceTh3 {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+  transform: translate(-1px, 10px);
+  visibility: visible;
+}
+#serviceStyle1:hover > #priceTh2 {
+  opacity: 1;
+  transition: all 0.5s ease-in;
+  transform: translate(70px, 160px);
+  visibility: visible;
+}
+#serviceStyle1:hover > #priceTh1 {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+  transform: translate(-50px, -110px);
+  visibility: visible;
+}
+#serviceStyle2:hover > #priceTh8 {
+  opacity: 1;
+  transition: all 0.2s ease-in;
+  transform: translate(-20px, -20px);
+  visibility: visible;
+}
+#serviceStyle2:hover > #priceTh7 {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+  transform: translate(-55px, 15px);
+  visibility: visible;
+}
+#serviceStyle2:hover > #priceTh6 {
+  opacity: 1;
+  transition: all 0.5s ease-in;
+  transform: translate(5px, -45px);
+  visibility: visible;
+}
+#serviceStyle2:hover > #priceTh5 {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+  transform: translate(-65px, -75px);
+  visibility: visible;
+}
+#serviceStyle3:hover > #priceTh12 {
+  opacity: 1;
+  transition: all 0.2s ease-in;
+  transform: translate(-20px, -20px);
+  visibility: visible;
+}
+#serviceStyle3:hover > #priceTh11 {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+  transform: translate(-55px, 15px);
+  visibility: visible;
+}
+#serviceStyle3:hover > #priceTh10 {
+  opacity: 1;
+  transition: all 0.5s ease-in;
+  transform: translate(5px, -45px);
+  visibility: visible;
+}
+#serviceStyle3:hover > #priceTh9 {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+  transform: translate(-65px, -75px);
+  visibility: visible;
+}
+/* div.priceThing {
+  background: #85F9D2;
+  border-radius: 50%;
+  position: relative;
+} */
+div#priceTh9 {
+  width: 10px;
+  height: 10px;
+  top: 95%;
+  left: 95%;
+}
+div#priceTh10 {
+  width: 20px;
+  height: 20px;
+  left: 85%;
+  top: 90%;
+}
+div#priceTh11 {
+  width: 30px;
+  height: 30px;
+  left: 80%;
+}
+div#priceTh12 {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  left: 80%;
+}
+div#priceTh5 {
+  width: 10px;
+  height: 10px;
+  top: 95%;
+  left: 95%;
+}
+div#priceTh6 {
+  width: 20px;
+  height: 20px;
+  left: 85%;
+  top: 90%;
+}
+div#priceTh7 {
+  width: 30px;
+  height: 30px;
+  left: 80%;
+}
+div#priceTh8 {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  left: 80%;
+}
+div#priceTh1 {
+  width: 10px;
+  height: 10px;
+  top: 100%;
+  left: 90%;
+  position:absolute;
+}
+div#priceTh2 {
+  width: 20px;
+  height: 20px;
+  left: 70%;
+  top: 40%;
+  position:absolute;
+}
+div#priceTh3 {
+  width: 30px;
+  height: 30px;
+  left: 63%;
+  position:absolute;
+}
+div#priceTh4 {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  left: 90%;
+  bottom: -10%;
+}
+
+section.myWorks {
+  position: relative;
+  background-color: #220A44;
+}
+section.myWorks h2 {
+  color: white;
+}
+section.myWorks h5 {
+  color: white;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+section.myWorks p {
+  font-family: 'Roboto Light', sans-serif;
+  text-align: justify;
+  color: white;
+}
+section.myWorks {
+  padding-left: 1em;
+  padding-right: 0.5em;
+}
+img.myWork {
+  width: 100%;
+}
+button.btn.btnProject {
+  border-radius: 0;
+  border:solid 1px white;
+  background-color: #220A44;
+  font-family: 'KUMBH SANS';
+  font-weight: lighter;
+  font-size: small;
+  padding: 10px 10px 10px 20px;
+  margin-right: 15px;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+/* My works hover */
+
+div.myWork1Hov:hover > div.myWork1HovAct {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 5px;
+  cursor: pointer;
+  text-decoration-thickness: 3px;
+} 
+
+div.myWork2Hov:hover > div.myWork2HovAct {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 5px;
+  cursor: pointer;
+  text-decoration-thickness: 3px;
+} 
+
+div.myWork3Hov:hover > div.myWork3HovAct {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 5px;
+  cursor: pointer;
+  text-decoration-thickness: 3px;
+} 
+
+section.aboutMe {
+  padding-left: 1em;
+  padding-right: 0.5em;
+  margin-bottom: 3em;
+}
+section.aboutMe p {
+  font-family: 'Roboto Light', sans-serif;
+  text-align: justify;
+}
+img.myPhoto {
+  width: 100%;
+}
+p.aboutMe {
+  margin-top: 2em;
+}
+
+/* Social links */
+
+div.aboutSocialLinks {
+  margin-top: 3em;
+}
+a.aboutSocialLinks {
+  position: unset;
+}
+span.aboutSocialLinks {
+  height: 3px;
+  width: 3px;
+  background-color: #220A44;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/*  contact section */
+
+section.contactMe {
+  background-color: #FCF7B9;
+  border-start-end-radius: 50px;
+  margin-bottom: 0;
+  padding: 1em;
+}
+div.contactMe {
+  margin: 0;
+  padding-left: 1em;
+  position: relative;
+}
+
+/* footer */
+footer {
+  background-color: #FCF7B9;
+  font-size: small;
+  font-size: small;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: auto;
+  height: 5em;
+  border-start-end-radius: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+footer p {
+  margin-bottom: 0;
+}
+i.bi {
+  color:#220A44;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* newsletter */
+
+@font-face {
+  font-display: block;
+  font-family: Roboto;
+  src: url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: Roboto;
+  font-weight: 600;
+  src: url(https://assets.brevo.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: Roboto;
+  font-weight: 700;
+  src: url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")
+}
+
+#sib-container input:-ms-input-placeholder {
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  color: #c0ccda;
+}
+
+#sib-container input::placeholder {
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  color: #c0ccda;
+}
+
+#sib-container textarea::placeholder {
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  color: #c0ccda;
+}

@@ -1,0 +1,27 @@
+<svg id="Component_2_1" data-name="Component 2 – 1" xmlns="http://www.w3.org/2000/svg" width="125" height="65" viewBox="0 0 125 65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #85f9d2;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_275" data-name="Ellipse 275" class="cls-1" cx="6.5" cy="6.5" r="6.5"/>
+  <circle id="Ellipse_286" data-name="Ellipse 286" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(0 26)"/>
+  <circle id="Ellipse_292" data-name="Ellipse 292" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(0 52)"/>
+  <circle id="Ellipse_276" data-name="Ellipse 276" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(28)"/>
+  <circle id="Ellipse_285" data-name="Ellipse 285" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(28 26)"/>
+  <circle id="Ellipse_291" data-name="Ellipse 291" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(28 52)"/>
+  <circle id="Ellipse_277" data-name="Ellipse 277" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(28)"/>
+  <circle id="Ellipse_284" data-name="Ellipse 284" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(28 26)"/>
+  <circle id="Ellipse_290" data-name="Ellipse 290" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(28 52)"/>
+  <circle id="Ellipse_278" data-name="Ellipse 278" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(56)"/>
+  <circle id="Ellipse_283" data-name="Ellipse 283" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(56 26)"/>
+  <circle id="Ellipse_289" data-name="Ellipse 289" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(56 52)"/>
+  <circle id="Ellipse_279" data-name="Ellipse 279" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(84)"/>
+  <circle id="Ellipse_282" data-name="Ellipse 282" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(84 26)"/>
+  <circle id="Ellipse_288" data-name="Ellipse 288" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(84 52)"/>
+  <circle id="Ellipse_280" data-name="Ellipse 280" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(112)"/>
+  <circle id="Ellipse_281" data-name="Ellipse 281" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(112 26)"/>
+  <circle id="Ellipse_287" data-name="Ellipse 287" class="cls-1" cx="6.5" cy="6.5" r="6.5" transform="translate(112 52)"/>
+</svg>

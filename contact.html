@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="style_contact.css" rel="stylesheet" />
+    <title>InnaSh website</title>
+    <link rel="icon" type="image/x-icon" href="favIconArtboard 1.png">
+  </head>
+   <body>
+    <header>
+        <!-- NavBar-->
+        <nav class="navbar fixed-top" id="navBarr">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <figure class="myLogo">
+                    <svg width="50"
+                    version="1.1" id="Component_23_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+            y="0px" viewBox="0 0 73 25" style="enable-background:new 0 0 73 25;" xml:space="preserve">
+        <style type="text/css">
+            .st0{fill:#85F9D2;}
+            .st1{fill:#220A44;}
+            .st2{font-family:'Helvetica';}
+            .st3{font-size:25px;}
+        </style>
+        <circle id="Ellipse_274" class="st0" cx="36.5" cy="13.5" r="6.5"/>
+        <text transform="matrix(1 0 0 1 0 19)" class="st1 st2 st3">Inn Sh</text>
+        </svg>
+    </figure>
+              </a>
+              <div class="btn-group" role="group">
+                <button type="button" class="btn dropdown-toggle btn-link langLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Eng
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item langLink" href="#">Fr</a></li>
+                  <li><a class="dropdown-item langLink" href="#">Ru</a></li>
+                </ul>
+              </div>
+          <!--    <div>
+                    <a class="nav-link active" href="#">Eng</a>
+                    <a class="nav-link disabled" aria-disabled="true">Fr</a>
+                    <a class="nav-link disabled" aria-disabled="true">Rus</a>
+              </div> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <hr>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sectionMyWorks">My Works</a>
+                    </li>
+                    <hr>
+                    <hr>
+                    <li>
+                        <a href="contact.html">
+                            <button type="button" class="btn btn-dark btn-lg btnContact">CONTACT</button>
+                        </a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="" class="btn btn-link socialNetLink aboutSocialLinks" style="padding-left: 0;">LINKEDIN</a>
+                    </li>
+                    <li>
+                        <span class="aboutSocialLinks"></span>
+                    </li>
+                    <li>
+                        <a href="https://www.behance.net/innash001" class="btn btn-link socialNetLink aboutSocialLinks">BEHANCE</a>
+                    </li>
+                    <li>
+                        <span class="aboutSocialLinks"></span>
+                    </li>
+                    <li>
+                        <a href="" class="btn btn-link socialNetLink aboutSocialLinks">INSTAGRAM</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+         </header>
+         <main>
+            <!-- section myPresentation -->
+           <section class="myPresentation">
+            <div class="row myPresentation">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                        <h1>Hi!
+                            <br>Let’s talk about
+                            <br>your next project!</h1>
+                        <hr>
+                        <hr>
+                        <p>innshhh@gmail.com</p>  
+                        <hr>  
+        <!-- Button                   
+                        <div class="d-flex justify-content-start buttonsPresentation">    
+                            <button type="button" class="btn btn-dark btn-lg btnContact">CONTACT</button>
+                        </div>--> 
+                <!-- NEWSLETTER -->
+                    <div class="NEWSLETTER">
+                        <div class="contactInput" style="margin-top: 2em;"> 
+                            <label class="contactLabel" for="name">Your Email</label>
+                            <input type="email" id="emailS" name="Email" size="10" placeholder="mail@gmail.com"/>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                            I agree to your MG.
+                            </label>
+                        </div>
+                        <div class="d-flex justify-content-start buttonsPresentation" style="margin-top: 2em;">    
+                            <button type="submit" class="btn btn-dark btn-lg btnContact">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+    <!-- contact form -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <form class="contactForm" action="https://formsubmit.co/28dd8fbefab7f752690b4a75af1ac233" method="POST" enctype="multipart/form-data">
+                        <!-- Honeypot-->
+                        <input type="text" name="_honey" style="display: none;">
+                        <!-- Disable captcha -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <!-- Link to success page-->
+                        <input type="hidden" name="_next" value="http://innash.com/success.html">
+                        <div class="contactInput">
+                            <label class="contactLabel" for="name">Your Full Name</label>
+                            <input type="text" id="name" name="Name" required minlength="3" size="10" placeholder="John Smith"/>
+                        </div>
+                        <div class="contactInput" style="margin-top: 2em;"> 
+                            <label class="contactLabel" for="name">Your Email</label>
+                            <input type="email" id="email" name="Email" size="10" placeholder="mail@gmail.com"/>
+                        </div>
+                        <div class="contactInput" style="margin-top: 2em;"> 
+                        <select class="form-select" name="purpose" aria-label="Default select example">
+                            <option selected>Your purpose is:</option>
+                            <option value="Showcase website">Showcase website</option>
+                            <option value="Landing page">Landing page</option>
+                            <option value="Visual identity">Visual identity</option>
+                            <option value="Other">Other</option>
+                          </select>
+                        </div>
+                        <div class="contactInput" style="margin-top: 2em;">
+                            <label class="contactLabel" for="uMessage">Your Message</label>
+                            <textarea id="uMessage" name="Message" rows="7" cols="33" placeholder="Express your thoughts here.."></textarea>
+                        </div>
+                        <div class="contactInput" style="margin-top: 2em;"> 
+                            <input type="file" name="attachment" accept="image/png, image/jpeg">
+                        </div>
+                        <div class="d-flex justify-content-start buttonsPresentation" style="margin-top: 2em;">    
+                            <button type="submit" class="btn btn-dark btn-lg btnContact">SEND IT</button>
+                        </div>
+                    </form>
+                </div> 
+            </div> 
+            <hr> 
+            </section>
+           <!-- <section class="contactMe">
+            </section>-->
+         </main>
+        <footer>
+            <hr>
+            <p>2023 </p>
+            <i class="bi bi-c-circle"></i>
+            <p>innash.com</p>
+            <i class="bi bi-geo-alt"></i>
+            <p>Annecy, France</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>
